@@ -7,7 +7,7 @@ for i in range(0, 101):
         print(i, end=" ")
         
 print("")
-print('Second task: ', end="")
+print('Second task: ', end=" ")
 
 #Second task
 str = "Congratulations"
