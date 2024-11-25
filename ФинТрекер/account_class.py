@@ -12,3 +12,6 @@ class Account:
 	
 	def get_transactions(self):
 		return self.transactions
+	
+	def __str__(self):
+		return str(self.balance)

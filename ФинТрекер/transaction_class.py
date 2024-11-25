@@ -13,6 +13,6 @@ class Transaction:
 			sign = "-"
 
 		amount_str = f"${abs(self.amount)}"
-
-		return f"{self.date} - {self.category}: {sign}{amount_str}"
+		
+		return f"{self.date} - {self.category_local}: {sign}{amount_str}"
 	
